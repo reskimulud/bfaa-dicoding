@@ -25,7 +25,11 @@ class MainActivity : AppCompatActivity() {
             val mStartServiceIntent = Intent(this, MyService::class.java)
             startService(mStartServiceIntent)
         }
-        btnStartJobIntentService.setOnClickListener {  }
+        btnStartJobIntentService.setOnClickListener {
+            val mStartIntentService = Intent(this, MyJobIntentService::class.java)
+            mStartIntentService.putExtra(MyJobIntentService.EXTRA_DURATION, 5000L)
+            MyJobIntentService.enqueueWork(this, mStartIntentService)
+        }
         btnStartBoundService.setOnClickListener {  }
         btnStopBoundService.setOnClickListener {  }
     }
