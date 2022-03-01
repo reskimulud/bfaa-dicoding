@@ -52,7 +52,8 @@ class MainActivity : AppCompatActivity() {
         })
 
         binding.btnSend.setOnClickListener { view ->
-            postReview(binding.edReview.text.toString())
+            mainViewModel.postReview(binding.edReview.text.toString())
+//            postReview(binding.edReview.text.toString())
             val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
             imm.hideSoftInputFromWindow(view.windowToken, 0)
         }
