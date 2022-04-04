@@ -15,4 +15,4 @@ In this class I have completed it and have received a certificate of competence 
 
 See [credentials](https://www.dicoding.com/certificates/1RXYY5EEMXVM) for more details
 
-![Certificate](https://github.com/reskimulud/bfaa-dicoding/raw/master/bfaa.jpg)
+[![Certificate](https://github.com/reskimulud/bfaa-dicoding/raw/master/bfaa.jpg)](https://www.dicoding.com/certificates/1RXYY5EEMXVM)
