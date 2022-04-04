@@ -14,3 +14,5 @@ This class is related to my activities in the [Bangkit](https://g.co/bangkit) pr
 In this class I have completed it and have received a certificate of competence from Dicoding, this certificate was issued on March 16, 2022.
 
 See [credentials](https://www.dicoding.com/certificates/1RXYY5EEMXVM) for more details
+
+![Certificate](https://github.com/reskimulud/bfaa-dicoding/raw/master/bfaa.jpg)
